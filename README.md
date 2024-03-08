@@ -1,1 +1,3 @@
 # Landis2024
+Sim_Script.R
+-Script to simulate evolution of the CCII. Simulates a starting population of specified size using a specified number of sites. Each simulated individual will be initialized as the progeny of two randomly selected parents. Each of the 7 chromosomes are generated with a single recombination between the two parental chromosomes. Forward simulations are conducted by random sampling of the previous generation w/o replacement. The script outputs the observed values of He across the sites used in the simulation followed by the values calculated from the simulated data. Reported generations for the observed data are F0, F18, F28, F58 and the reported generations for the simulated data are F18, F28, F58.
